@@ -36,3 +36,212 @@
     transform: rotate(360deg);
   }
 }
+
+#profile{
+  background-color: #272727;
+  /* border-style: solid;
+  border-width: 4px;
+  border-color: #a48beb;
+  border-radius: 10%; */
+  width : 70%;
+  height : 100%;
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+#profile > h1, h2, h3, h4, h5, h6, p, a {
+  color: #fff;
+}
+
+#wrapper{
+  background-color: #272727;
+  height : 100%
+}
+
+#navMap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  height : 7.5%;
+  background-color: #a48beb;
+}
+
+/* #navMap > *  {
+  color: #fff;
+  margin-bottom: 10px;
+} */
+
+#markerOnMap{
+  height : 10px;
+  width: 10px;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: #a48beb;
+  border-radius: 35%; */
+  
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#markerOnMap > * {
+  height : 40px;
+  width: 40px;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #a48beb;
+  border-radius: 90%;
+}
+#locationInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nearestStation{
+  display: flex;
+  flex-direction: row;
+  align-items: center ;
+}
+
+#availableLines{
+  display: flex;
+  flex-direction: row;
+  align-items: center ;
+}
+
+#lineIcon{
+  width: 125px;
+  height : auto
+}
+
+.track{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 25px;
+}
+
+#eventInfoSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* #profileHeader{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} */
+
+#eventGeneralInfo{
+  /* border-width: 2px;
+  border-style: solid;
+  border-color: #a48beb; */
+  width: 250px
+
+}
+
+.artistWidthCollapseAndSpotify > h4{
+  margin-bottom: -25px;
+}
+
+.artistWidthCollapseAndSpotify{
+  /* border-bottom: solid;
+  border-width: 2px;
+  border-color: #a48beb; */
+  height : 75px
+}
+
+.artistWithSpotifyLink{
+  /* border-bottom: solid;
+  border-width: 2px;
+  border-color: #a48beb; */
+  height : 75px
+}
+
+.artistOnlyWithName{
+  /* border-bottom: solid;
+  border-width: 2px;
+  border-color: #a48beb; */
+  height : 75px
+}
+
+#filterMenu{
+  background-color: #272727;
+  height : 100vh
+}
+
+#selectedDate{
+  background-color: #fff;
+  width: 150px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#selectedDate > * {
+  color: #a48beb;
+  margin-top: 3.5px;
+}
+
+#dateFilter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+#dateFilter > button{
+  width: 100px;
+  height : 50px
+}
+
+#filterEventsButton{
+  margin-top : 50px
+}
+
+#filterEventsButton > button {
+  width: 150px;
+  height : 50px;
+  background-color: #a48beb;
+  color: #fff;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  
+}
+
+#mapMusicLogo{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+}
+
+#filterMenuButton{
+  color: #fff;
+  background-color: #a48beb;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+}
+
+
+
+
+
+
+
+ 
+
+
+
